@@ -5,7 +5,6 @@ function isEmpty(obj) {
     return true;
 }
 let schedule = {};
-console.log(isEmpty(schedule)); 
-
+console.log("Чи порожній об'єкт?:", isEmpty(schedule)); 
 schedule["8:30"] = "get up";
-console.log(isEmpty(schedule)); 
+console.log("Чи порожній об'єкт?:", isEmpty(schedule)); 
